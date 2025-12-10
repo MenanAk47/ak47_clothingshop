@@ -1,4 +1,4 @@
-# Advanced FiveM VIP Shop System (ESX)
+# Advanced FiveM VIP Shop System (ESX/QBCore)
 
 **The ultimate monetization and donation management solution for FiveM servers.** This script provides a sleek, tablet-style VIP shop where players can spend "V-Coins" on vehicles, weapons, items, money, and bundles. It includes a complete admin panel for in-game management, a CS:GO-style crate opening system, daily rewards, and seamless Tebex integration.
 
