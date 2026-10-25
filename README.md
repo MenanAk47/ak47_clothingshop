@@ -1,10 +1,9 @@
-# Advanced FiveM VIP Shop System (ESX/QBCore)
-
-**The ultimate monetization and donation management solution for FiveM servers.** This script provides a sleek, tablet-style VIP shop where players can spend "V-Coins" on vehicles, weapons, items, money, and bundles. It includes a complete admin panel for in-game management, a CS:GO-style crate opening system, daily rewards, and seamless Tebex integration.
+**The ultimate clothing shop experience for FiveM servers.** Elevate your roleplay economy with a sleek React-powered clothing store, modern wardrobe item stash, real-time camera controls, and automated image capture. Seamlessly integrated with `ak47_lib` for plug-and-play support across ESX, QBCore, and QBX servers.
 
 ---
 
 ## 🎥 Showcase
+<img width="1920" height="1080" alt="EX8FUqZCFv" src="https://github.com/user-attachments/assets/3ba814d7-eb98-474e-ae26-3f54f4f9d612" />
 
 > **[Click here to watch the full feature showcase on YouTube](https://youtu.be/5gqB-G68c3E)**
 
@@ -12,52 +11,74 @@
 
 ## 🔥 Key Features
 
-This resource is designed to maximize player engagement and streamline your server's donation system:
+Designed to improve roleplay immersion and economy balancing:
 
-### 🛍️ Comprehensive Shop Categories
-* **Vehicles**: Display custom vehicle stats (Speed, Acceleration, Braking, Handling). Includes a **Test Drive** feature.
-* **Weapons**: Sell weapons with custom ammo counts and metadata.
-* **Items & Money**: Easily sell inventory items or in-game cash packages.
-* **Bundles**: Create value packs combining multiple items, weapons, and vehicles with discounts.
+### 🛍️ Modern React Clothing Store
 
-### 📦 Advanced Crate System
-* **CS:GO Style Animation**: Exciting visual spin animation for opening crates.
-* **Rarity Tiers**: Configurable loot tables for Common, Uncommon, Rare, Epic, and Legendary crates.
-* **Daily Rewards**: Players can claim a free crate every 24 hours (configurable).
+* **Interactive Category & Item Browser:** Browse hats, glasses, masks, tops, pants, shoes, vests, bags, decals, and accessories with instant ID search and variation previews.
+* **Smart Shopping Cart:** Add multiple clothing items to cart, inspect individual prices, view total balance, and checkout via cash, bank, or server coins.
+* **Multi-Angle Camera Controls:** Switch between Head, Torso, Legs, and Full Body views, rotate player character, or trigger Hands-Up and T-Pose animations for precise fitment.
 
-### 🔧 In-Game Admin Panel
-* **Live Editor**: Add, edit, or delete shop packages directly from the game.
-* **Drag & Drop Sorting**: Easily reorder items in the shop interface.
-* **Code Generation**: Create redeemable codes for V-Coins directly in the menu.
-* **Player Management**: Give V-Coins to players manually.
-* **Dashboard**: View detailed purchase history and logs.
+### 👔 Dual Wardrobe & Outfit Sharing
 
-### 💰 Monetization & Retention
-* **Tebex Integration**: Automatic command support for real-time coin delivery upon donation.
-* **Redeem Codes**: Generate codes for giveaways or special promotions.
-* **Timed Rewards**: Reward players with V-Coins automatically for their playtime.
-* **Special Offers**: Highlight specific items with "Hot Deal" banners and discounts.
+* **Modern Wardrobe & Stash:** Store owned clothing items in a personal wardrobe stash, equip/take off items dynamically, and discard unwanted apparel.
+* **Outfit Share Codes:** Export and import unique outfit codes to easily share stylish outfits with friends or across characters.
+* **Classic & Modern Modes:** Choose between lightweight classic outfit saving or modern wardrobe itemization via config.
 
-### ⚙️ Additional Features
-* **Discord Logs**: Comprehensive webhooks for purchases, crate openings, and admin actions.
-* **Secure**: Server-side validation for all purchases and rewards.
-* **Localization**: easy-to-configure language file.
+### ⚡ Automated Image Capture & FiveManage Integration
 
----
+* **In-Game Image Capture Tool:** Run `/takeclothingimage` with configurable auto-capture delays and custom camera FOVs/offsets per component.
+* **Cloud Image Hosting:** Automatically captures and uploads clothing item thumbnails directly to FiveManage for high-performance UI rendering.
+* **Auto Texture & Limit Filtering:** Automatic filtering of broken textures and ghost drawables to prevent client crashes.
 
-## 📖 Documentation
+### 🛠️ In-Game Admin Management Panel
 
-For detailed installation guides, configuration options, and API usage, please visit our official documentation:
-**[https://docs.menanak47.com/esx/ak47_vipshop](https://docs.menanak47.com/esx/ak47_vipshop)**
+* **Visual Store Configuration:** Open `/clothingadmin` to assign, reprice, or restrict items to specific shops (Discount Store, Ponsonbys, Sub Urban, etc.).
+* **Bulk Pricing & Copy/Paste:** Set global category prices with one click, or copy and paste clothing setups across stores effortlessly.
+* **Global Defaults Management:** Set default undressed items per component and gender directly from the in-game UI.
+
+### 🛠️ Technical Excellence
+
+* **Multi-Framework & Target Support:** Seamlessly works with ESX, QB, QBX, and various target systems (ox_target, qb-target, qtarget).
+* **Highly Secure:** Built-in server-side exploit checks, including distance validation and trigger authentication, to prevent cheating.
+* **Appearance & Inventory Integration:** Out-of-the-box compatibility with `illenium-appearance`, `fivem-appearance`, `qb-clothing`, `esx_skin`/`skinchanger`, plus optional physical shopping bag stash items with `ak47_inventory`.
 
 ---
 
-## 🔗 Links & Support
+## 💻 Framework:
 
-* **🛒 Buy Now (Tebex):** [https://menanak47.tebex.io](https://menanak47.tebex.io)
-* **💬 Discord Support:** [https://discord.gg/RKZcVwh](https://discord.gg/RKZcVwh)
-* **📺 YouTube Channel:** [https://www.youtube.com/@menanak47](https://www.youtube.com/@menanak47)
+* ESX, QB, QBX
 
 ---
 
-*Made with ❤️ by Menanak47.*
+## ⚙️ Dependencies:
+
+* ak47_lib: https://github.com/MenanAk47/ak47_lib/releases/latest
+
+---
+
+## ⚙️ How To Install:
+
+* Download ak47_clothingshop from your cfx portal.
+* Add the script in your resources folder.
+* Add items based on your framework instruction.
+* Add item images into inventory.
+* Start the script in your server.cfg below framework files.
+* Make sure you have all dependencies.
+* Restart the server.
+
+---
+
+## 🔗 Links & Support:
+
+* **📖 Documentation:** [https://docs.menanak47.com/multi-framework/ak47_clothingshop](https://docs.menanak47.com/multi-framework/ak47_clothingshop)
+* **🛒 Buy Now (Tebex):** [https://menanak47.tebex.io/package/7105974](https://menanak47.tebex.io/package/7105974)
+* **💬 Discord Support:** [https://discord.gg/menanak47](https://discord.gg/menanak47)
+
+---
+
+## 📝 Note:
+* We don't support custom framework. Make sure you are using official framework update.
+* Renaming the script is not allowed. It may break the functionalities.
+* Don't upload the script with FileZilla, Use Winscp if you are using FTP for file uploading
+| Support                 | Yes                    |
