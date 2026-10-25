@@ -59,7 +59,7 @@ Designed to improve roleplay immersion and economy balancing:
 
 ## ⚙️ How To Install:
 
-* Download ak47_clothingshop from your cfx portal.
+* Download ak47_clothingshop & ak47_map_photoroom from your cfx portal.
 * Add the script in your resources folder.
 * Add items based on your framework instruction.
 * Add item images into inventory.
